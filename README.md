@@ -1,54 +1,55 @@
-Overview
-This project presents an interactive Sales Performance Dashboard built using Power BI. The dashboard allows users to analyze actual vs. target sales performance across teams and individual salespeople over a 14-month period. The goal is to provide actionable insights and clear visualizations for business decision-making.
+# 📈 Sales Performance Dashboard
 
-Features
-KPI Summary Cards: Quick view of total actual sales, target sales, variance (value and percentage), and months with targets achieved.
+An interactive Power BI dashboard for visualizing and analyzing sales data by region, product, time period, and more.
 
-Monthly Trend Visualization: Compare actual and target sales over time, with annotations for periods when sales targets were met.
+---
 
-Image: 
-![image](https://github.com/user-attachments/assets/4b0df14b-1630-4c11-92d7-34b626415a2b)
+## 📝 Project Overview
 
+This dashboard provides actionable insights into sales performance, key trends, and business metrics, helping organizations track growth, identify top performers, and support data-driven decisions.
 
-Team and Salesperson Analysis:
+---
 
-Select teams to filter results.
+## 📸 Dashboard Preview
 
-Drill down to individual salesperson performance, variance percentages, and mini sales trends.
-
-Variance Highlights: Identify top and bottom performers at a glance, with conditional formatting and trend lines.
-
-Automated Insights: Narrative summary of key trends, including periods of sales increase/decrease and performance highlights.
-
-Technologies Used
-Power BI: Dashboard creation, DAX calculations, and data modeling
-
-Excel: Data cleaning and preparation
-
-Getting Started
-Clone this repository.
-
-Open the Power BI file (.pbix) in Power BI Desktop.
-
-Replace the sample dataset (actual-vs-target-dataset.xlsx) if you wish to use your own data.
-
-Refresh the dashboard to update all visuals and KPIs.
+![image](https://github.com/user-attachments/assets/b5cec0c5-2d29-4806-a3c6-2bd21affddc8)
 
 
-Sample Insights
-Identify months where targets were consistently missed.
+---
 
-Visualize impact of sales campaigns or seasonality.
+## ✨ Features
 
-Drill down to individual performance and improvement areas.
+- **Dynamic Filters:** Drill down by region, product, sales channel, and time period
+- **KPI Metrics:** Track revenue, quantity, profit, and other key performance indicators
+- **Trend Analysis:** Visualize sales growth and seasonality over time
+- **Top/Bottom Performers:** Identify best-selling and underperforming products or regions
+- **Geographical Insights:** Sales distribution maps (if included)
+- **Custom Visuals:** Interactive charts and tables for deep data exploration
 
-Attribution
-Dataset: [Dataset source or link, if public. E.g., "Sample data for educational purposes from UCI/Kaggle/XYZ."]
+---
 
-Dashboard Design: Created by [Your Name].
+## 📂 Data
 
-License
-This project is for educational and demonstration purposes.
-If you use this dashboard or adapt it for your own use, please give proper attribution.
+- **Source:** Public/sample dataset (for educational/demo purposes)
 
-Feel free to fork this repo, use the dashboard as inspiration, or reach out for collaboration!
+
+---
+
+## 🚀 How to Use
+
+1. Download the Power BI report (`.pbix`) or connect Power BI to the CSV in the `data` folder.
+2. Open the report in **Power BI Desktop**.
+3. Use the filters and visuals to explore and analyze the sales data.
+
+---
+
+## 👤 About
+
+**Created by:** Shaiprashaanth  
+**Tools:** Power BI, Microsoft Excel, CSV
+
+---
+
+## 📜 License
+
+This project is for educational purposes only. Dataset credit to its respective owners.
